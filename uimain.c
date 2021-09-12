@@ -26,8 +26,12 @@ int main()
       break;
     case 'c':
       puts("You selected chars:");
-      for (char c = 'A'; c < 'D'; c++)
+      for (char c = 'A'; c < 'D'; c++){
 	print_char_11x16(c);
+      }
+      for (char c2 = 'E'; c2 < 'H'; c2++){
+        print_char_8x12(c2);
+      }
       break;
     case 'a':
       puts("You selected arrow:");
